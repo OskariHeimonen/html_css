@@ -1,0 +1,10 @@
+git status
+
+git add .
+
+git commit -m "information about change done"
+
+git push
+
+
+git log -p -N view history of changes "-N" number of latest commits

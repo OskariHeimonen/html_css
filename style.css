@@ -1,3 +1,25 @@
-h1 {
-   font-size: 70px;
+/* position: static; no special way, according to flow  */
+/* position: relative; relative to its normal position  */
+/* position: fixed; relative to its normal position  	*/
+/* 							*/
+/* 							*/
+/* 							*/
+/* 							*/
+/* 							*/
+
+body {
+   background-color: lightblue;
 }
+
+/*h1 {
+   font-size: 110px;
+   text-align: center;
+}*/
+
+.heading {
+   text-align: center;
+   font-size: 70px;
+   text-align: center;
+   top: 0px;
+}
+
