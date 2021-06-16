@@ -41,16 +41,32 @@ li a {
 
 /* Change link color on hover */
 li a:hover {
-    background-color: #111
+    background-color: white;
+    color: black;
+    
 }
 
+/* Main header text "LA BICI REVOLUCIOM" */
 .heading {
    text-align: center;
-   font-size: 70px;
+   font-size: 140px;
+   top: 10px;
+   /*padding: -10px;*/
+   font-weight: 900;
+}
+
+/* Secondary text "Be sovereing, use your bike!" */
+.heading2 {
    text-align: center;
-   top: 0px;
+   font-size: 40px;
+   font-family: monospace;
+   /*top: -30px;*/
+   align: center;
+   padding: -10%;
+
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: lightblue;
+    color: black;
 }
